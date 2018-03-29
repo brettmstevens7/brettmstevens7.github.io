@@ -1,0 +1,61 @@
+/* global */
+
+html, body {
+  background: radial-gradient(#2387EE, #249af4);
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px; 
+  font-size: 18px;
+  font-family: "Cabin", sans-serif;
+  color: white;
+}
+
+
+/* cover */
+
+.cover {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding-bottom: 0px; 
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center right;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+
+/* images */
+
+.picture-of-me {
+  max-width: 30vw;
+  min-width: 200px;
+  height: auto;
+}
+
+.my-name {
+  max-width: 30vw;
+  min-width: 250px;
+  height: auto;
+}
+
+
+/* icons */
+.icon {
+  color: white;
+  font-size: 22px;
+  padding: 3px 3px 3px 3px;
+}
+
+
+/* animations */
+
+.grow-icon { transition: all .2s ease-in-out; color: white;}
+.grow-icon:hover { transform: scale(1.5); }
